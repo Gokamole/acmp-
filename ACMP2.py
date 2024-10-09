@@ -1,6 +1,6 @@
 input_data = open('input.txt', 'r')
 data = input_data.read ()
-a = int(data[0])
+a = int(data)
 k = 0
 if a > 0:   
  for i in range (1, a+1):
